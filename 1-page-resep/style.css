@@ -1,0 +1,105 @@
+@font-face {
+    font-family: outfit;
+    src: url(font/outfit/static/Outfit-Regular.ttf);
+}
+
+@font-face {
+    font-family: young-serif;
+    src: url(font/young-serif/YoungSerif-Regular.ttf);
+}
+
+body {
+    background-color: rgb(248, 212, 232);
+    padding: 0;
+    margin: 0;
+    font-family: outfit;
+    color: rgb(92, 90, 90);
+}
+
+.card {
+    background-color: white;
+    width: 50%;
+    margin: 3em auto;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 22px;
+}
+
+img {
+    width: 100%;
+    margin: auto;
+    display: block;
+    padding-bottom: 5px;
+}
+
+h1 {
+    font-family: young-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.preparation {
+    background-color: rgba(248, 212, 232, 0.4);
+    padding: 5px 20px;
+}
+
+.preparation ul {
+    padding-left: 20px;
+}
+
+li {
+    padding-bottom: 10px;
+}
+
+.preparation li {
+    padding-left: 20px;
+}
+
+.ingredients, .instructions, td {
+    border-bottom: 1px solid black;
+}
+
+
+h2 {
+    font-family: young-serif;
+    padding-top: 8px;
+    font-weight: lighter;
+}
+
+h3 {
+    color: rgb(161, 20, 91);
+}
+
+.bold-line {
+    font-weight: bold;
+}
+
+td:nth-child(even), h2 {
+    color: #963737;
+}
+
+/* li::marker digunakan untuk menyeleksi nomor yang ada di list */
+ol > li::marker {
+    color: #963737;;
+}
+
+.ingredients ul, .instructions ol {
+    padding-left: 20px;
+}
+
+.ingredients ul li, .instructions ol li{
+    padding-left: 20px;
+}
+
+table {
+    padding: 15px 20px;
+    width: 100%;
+}
+
+td {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+
